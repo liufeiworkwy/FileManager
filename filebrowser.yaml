@@ -1,0 +1,16 @@
+port: 80
+baseURL: ''
+noAuth: false
+address: 0.0.0.0
+reCaptchaKey: ''
+reCaptchaSecret: ''
+database: "/opt/filemanager/database.db"
+log: stdout
+plugin: ''
+scope: "/opt/filemanager/files"
+allowCommands: true
+allowEdit: true
+allowNew: true
+commands:
+- git
+- svn
